@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fde0d1b2-0c08-447d-8c63-ba0b65fa80e1" name="Changes" comment="fix: corrigir imports de modulos e adicionar validacao de RAM&#10;&#10;- Corrigidos os caminhos de importacao absolutos no transcription_input.py&#10;- Integrada a biblioteca psutil para checar a RAM real do sistema na classe ModelSafety&#10;- Atualizados os arquivos README_whisper.md, README_cli.mdE README.md com os novos requisitos">
+      <change beforePath="$PROJECT_DIR$/transcriber/speech/engines/vosk_engine.py" beforeDir="false" afterPath="$PROJECT_DIR$/transcriber/speech/engines/vosk_engine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transcriber/speech/resolver/vosk_resolver.py" beforeDir="false" afterPath="$PROJECT_DIR$/transcriber/speech/resolver/vosk_resolver.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="clean-main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="3E6FzKRWuftt6zjf5wbf5FByYuP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.main.executor": "Run",
+    "Python.python -m main.executor": "Run",
+    "Python.python main.py.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/claudio/Downloads/OpenTranscriPyBackup-clean-main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/transcriber/speech/resolver" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/models/vosk/en" />
+      <recent name="$PROJECT_DIR$/transcriber/config" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProjectOpenTranscriPy" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="python -m main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonProjectOpenTranscriPy" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/transcriber/cli" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="main" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="python main.py" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonProjectOpenTranscriPy" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/transcriber/cli" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.python -m main" />
+        <item itemvalue="Python.python main.py" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-024ed6589d45-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.23567.174" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fde0d1b2-0c08-447d-8c63-ba0b65fa80e1" name="Changes" comment="" />
+      <created>1779491376256</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1779491376256</updated>
+    </task>
+    <task id="LOCAL-00001" summary="fix(imports): corrigir caminhos e arquivos ausentes do modulo transcriber">
+      <option name="closed" value="true" />
+      <created>1779749927345</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1779749927345</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix(imports): corrigir caminhos e arquivos ausentes do modulo transcriber">
+      <option name="closed" value="true" />
+      <created>1779750040061</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1779750040061</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fix: corrigir imports de modulos e adicionar validacao de RAM&#10;&#10;- Corrigidos os caminhos de importacao absolutos no transcription_input.py&#10;- Integrada a biblioteca psutil para checar a RAM real do sistema na classe ModelSafety&#10;- Atualizados os arquivos README_whisper.md, README_cli.mdE README.md com os novos requisitos">
+      <option name="closed" value="true" />
+      <created>1779755812669</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1779755812670</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fix: corrigir imports de modulos e adicionar validacao de RAM&#10;&#10;- Corrigidos os caminhos de importacao absolutos no transcription_input.py&#10;- Integrada a biblioteca psutil para checar a RAM real do sistema na classe ModelSafety&#10;- Atualizados os arquivos README_whisper.md, README_cli.mdE README.md com os novos requisitos">
+      <option name="closed" value="true" />
+      <created>1779757768096</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1779757768096</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix(imports): corrigir caminhos e arquivos ausentes do modulo transcriber" />
+    <MESSAGE value="fix: corrigir imports de modulos e adicionar validacao de RAM&#10;&#10;- Corrigidos os caminhos de importacao absolutos no transcription_input.py&#10;- Integrada a biblioteca psutil para checar a RAM real do sistema na classe ModelSafety&#10;- Atualizados os arquivos README_whisper.md, README_cli.mdE README.md com os novos requisitos" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: corrigir imports de modulos e adicionar validacao de RAM&#10;&#10;- Corrigidos os caminhos de importacao absolutos no transcription_input.py&#10;- Integrada a biblioteca psutil para checar a RAM real do sistema na classe ModelSafety&#10;- Atualizados os arquivos README_whisper.md, README_cli.mdE README.md com os novos requisitos" />
+  </component>
+</project>
