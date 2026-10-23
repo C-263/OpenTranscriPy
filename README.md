@@ -47,7 +47,7 @@ final.txt
 | Whisper / Faster Whisper Base | 4 GB | 8 GB | Bom equilíbrio |
 | Whisper / Faster Whisper Small | 8 GB | 12 GB | Melhor precisão |
 | Whisper / Faster Whisper Medium | 16 GB | 24 GB | Processamento pesado |
-| Whisper / Faster Whisper Large | 16 GB | 32 GB | Alto consumo de memória |
+| Whisper / Faster Whisper Large | 24 GB | 32 GB | Alto consumo de memória |
 
 ### Observações
 
